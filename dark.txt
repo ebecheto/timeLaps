@@ -1,0 +1,1 @@
+compare.im6: image widths or heights differ `pic-1.jpg' @ error/compare.c/CompareImageCommand/962.

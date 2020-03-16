@@ -1,0 +1,6 @@
+# crontab file loadded with $> 
+# crontab ~/timeLaps/cron.cam
+
+* * * * * /bin/bash /home/pi/timeLaps/capture.sh 1>>~/tl.log
+* * * * * sleep 20; /bin/bash /home/pi/timeLaps/capture.sh 1>>~/tl.log
+* * * * * sleep 40; /bin/bash /home/pi/timeLaps/capture.sh 1>>~/tl.log
